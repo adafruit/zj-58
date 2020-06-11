@@ -12,3 +12,10 @@ chmod 755 rastertozj
 chown root:root rastertozj
 cd -
 /etc/init.d/cups start
+
+cp ZJ-58.ppd /usr/share/cups/model/zjiang/
+cd /usr/lib/cups/filter
+chmod 755 rastertozj
+chown root:root rastertozj
+cd -
+/etc/init.d/cups start
