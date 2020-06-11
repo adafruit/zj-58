@@ -26,44 +26,44 @@
 
 *OpenUI *PageSize/Media Size: PickOne
 *OrderDependency: 10 AnySetup *PageSize
-*DefaultPageSize: X48MMY64MM
+*DefaultPageSize: X66MMY64MM
 
-*PageSize X48MMY64MM/58mm x 74mm:         "<</PageSize[136 181]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
-*PageSize X48MMY210MM/58mm x 210mm:         "<</PageSize[136 595]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
-*PageSize X48MMY297MM/58mm x 297mm:         "<</PageSize[136 842]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
-*PageSize X48MMY3276MM/58mm x 3276mm:       "<</PageSize[136 9286]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageSize X66MMY64MM/80mm x 74mm:         "<</PageSize[188 181]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageSize X66MMY210MM/80mm x 210mm:         "<</PageSize[188 595]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageSize X66MMY297MM/80mm x 297mm:         "<</PageSize[188 842]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageSize X66MMY3276MM/80mm x 3276mm:       "<</PageSize[188 9286]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
 
 *CloseUI: *PageSize
 
 *OpenUI *PageRegion: PickOne
 *OrderDependency: 10 AnySetup *PageRegion
-*DefaultPageRegion: X48MMY64MM
+*DefaultPageRegion: X70MMY64MM
 
-*PageRegion X48MMY64MM/58mm x 74mm:         "<</PageSize[164 219]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
-*PageRegion X48MMY210MM/58mm x 210mm:         "<</PageSize[164 595]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
-*PageRegion X48MMY297MM/58mm x 297mm:         "<</PageSize[164 842]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
-*PageRegion X48MMY3276MM/58mm x 3276mm:       "<</PageSize[164 9286]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageRegion X66MMY64MM/80mm x 74mm:         "<</PageSize[233 219]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageRegion X66MMY210MM/80mm x 210mm:         "<</PageSize[233 595]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageRegion X66MMY297MM/80mm x 297mm:         "<</PageSize[233 842]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageRegion X66MMY3276MM/80mm x 3276mm:       "<</PageSize[233 9286]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
 
-*DefaultImageableArea: X48MMY64MM
+*DefaultImageableArea: X66MMY64MM
 
-*ImageableArea X48MMY64MM:               "0 0 136 181"
-*ImageableArea X48MMY210MM:              "0 0 136 595"
-*ImageableArea X48MMY297MM:              "0 0 136 842"
-*ImageableArea X48MMY3276MM:             "0 0 136 9286"
+*ImageableArea X66MMY64MM:               "0 0 188 181"
+*ImageableArea X66MMY210MM:              "0 0 188 595"
+*ImageableArea X66MMY297MM:              "0 0 188 842"
+*ImageableArea X66MMY3276MM:             "0 0 188 9286"
 
-*DefaultPaperDimension: X48MMY64MM
+*DefaultPaperDimension: X66MMY64MM
 
-*PaperDimension X48MMY64MM:              "136 181"
-*PaperDimension X48MMY210MM:             "136 595"
-*PaperDimension X48MMY297MM:             "136 842"
-*PaperDimension X48MMY3276MM:            "136 9286"
+*PaperDimension X66MMY64MM:              "188 181"
+*PaperDimension X66MMY210MM:             "188 595"
+*PaperDimension X66MMY297MM:             "188 842"
+*PaperDimension X66MMY3276MM:            "188 9286"
 
-*MaxMediaWidth:  "136"
+*MaxMediaWidth:  "188"
 *MaxMediaHeight: "9286"
 *HWMargins:      0 0 0 0
 *CustomPageSize True: "pop pop pop <</PageSize[5 -2 roll]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
-*ParamCustomPageSize Width:        1 points 48 136
-*ParamCustomPageSize Height:       2 points 48 9282
+*ParamCustomPageSize Width:        1 points 66 188
+*ParamCustomPageSize Height:       2 points 66 9282
 *ParamCustomPageSize WidthOffset:  3 points 0 0
 *ParamCustomPageSize HeightOffset: 4 points 0 0
 *ParamCustomPageSize Orientation:  5 int 0 0
@@ -86,6 +86,9 @@
 *FeedDist 12feed39mm/feed 39mm: ""
 *FeedDist 13feed42mm/feed 42mm: ""
 *FeedDist 14feed45mm/feed 45mm: ""
+*FeedDist 14feed45mm/feed 50mm: ""
+*FeedDist 14feed45mm/feed 55mm: ""
+*FeedDist 14feed45mm/feed 60mm: ""
 *CloseUI: *FeedDist
 
 
